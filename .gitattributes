@@ -1,0 +1,10 @@
+# See https://github.com/github/linguist
+yarn.lock linguist-generated
+docs/* linguist-vendored
+package-lock.json linguist-generated
+* text=auto eol=lf
+*.bat text eol=crlf
+src/** linguist-detectable
+*.woff2 binary
+*.min.js linguist-generated
+*.svg text
